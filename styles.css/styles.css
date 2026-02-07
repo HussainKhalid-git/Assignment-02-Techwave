@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    background: #412567;
+}
+
+.container {
+    border: 3px solid red;
+    padding: 0 200px;
+}
+
+.navbar {
+    padding: 30px 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.logo .tech {
+    color: white;
+}
+
+.logo .wave {
+    background: linear-gradient(135deg,#ff4fd8,#7cffb2);-webkit-background-clip: text;
+    color: transparent;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:400;
+}
+
+.subscribe-btn {
+    padding: 12px 16px;
+    border-radius: 999px;
+    background: linear-gradient(135deg,#ff4fd8,#7cffb2);
+    color:#fff;
+    font-size: 16px;
+    font-weight: 600px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.subscribe-btn:hover {
+    background-color:;
+}
+
+.hamburger {
+    display: none;
+    width: 24px;
+    height: 24px;
+}
+
+
+
