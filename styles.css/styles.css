@@ -64,10 +64,11 @@ header {
     color:#fff;
     font-size: 16px;
     font-weight: 600px;
-    text-decoration: none;
-    text-align: center;
     cursor: pointer;
     transition: 0.3s;
+    border: none;
+    outline: none;
+    align-items: center;
 }
 
 .subscribe-btn:hover {
@@ -195,6 +196,9 @@ header {
 
 .spotify {
     background: linear-gradient(135deg,#ff4fd8,#7cffb2);
+    border: none;
+    outline: none;
+    align-items: center;
 }
 
 .subscribe {
@@ -202,6 +206,8 @@ header {
     border: 1px solid #00FF88;
     color: #00FF88;
     gap: 8px;
+    outline: none;
+    align-items: center;
 }
 
 /* about section */
