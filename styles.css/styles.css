@@ -271,7 +271,71 @@ header {
 
 /* WHY SECTION */
 
+#why {
+    background: #230E3D;
+}
+
 .why {
     padding-top: 120px;
     padding-bottom: 120px;
+    text-align: center;
+}
+
+.why h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* grid */
+
+.why-grid {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.why-card {
+    background: #351165;
+    border-radius: 40px;
+    padding: 40px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.why-card img {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+
+.why-card h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.why-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+
+/* responsive */
+
+@media (max-width:992px ) {
+    .why-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:576px ) {
+    .why-grid {
+        grid-template-columns: repeat(1fr);
+    }
 }
