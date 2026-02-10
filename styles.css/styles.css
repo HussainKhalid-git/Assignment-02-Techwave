@@ -339,3 +339,47 @@ header {
         grid-template-columns: repeat(1fr);
     }
 }
+
+/* host section */
+.host {
+    background: #1A0B2E;
+}
+
+.host h1 {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.host-wrapper {
+    border: 2px solid blue;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+}
+
+.host-img {
+    width: 200px;
+    height: 200px;
+}
+
+.host-content h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.host-content P {
+    font-size: 16PX;
+    line-height: 24PX;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+
