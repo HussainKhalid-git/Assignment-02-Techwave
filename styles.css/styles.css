@@ -292,8 +292,40 @@ header {
 .why-grid {
     padding-top: 40px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 'a b b'
+                        'a c c'
+                        'd d e';
     gap: 30px;
+}
+
+.card-1 {
+    grid-area: a;
+    width: 380px;
+    height: 480px;
+}
+
+.card-2 {
+    grid-area: b;
+    width: 790px;
+    height: 225px;
+}
+
+.card-3 {
+    grid-area: c;
+    width: 790px;
+    height: 225px;
+}
+
+.card-4 {
+    grid-area: d;
+    width: 790px;
+    height: 273px;
+}
+
+.card-5 {
+    grid-area: e;
+    width: 380px;
+    height: 273px;
 }
 
 .why-card {
